@@ -1,0 +1,17 @@
+Started the round 1
+Street "preflop" started. (community card = [])
+
+🤖 [monte-carlo-algorithm (David Wilson)] Round 1 - PREFLOP
+💭 Reasoning: Win rate (8.90%) and pot odds (40.00%) justify calling to see next card.
+🎯 Decision: {'action': 'CALL', 'amount': 10}
+"David Wilson" declared "call:10"
+
+🤖 [deepseek-chat-v3-0324 (Emily Zhang)] Round 1 - PREFLOP
+💭 Reasoning: Weak offsuit hand (C2, H8) with low hand strength (0.3667) and unfavorable pot odds (0.29). Early position call suggests opponents may have stronger ranges. Folding is optimal to avoid marginal spots with a speculative hand.
+🎯 Decision: {'action': 'FOLD'}
+"Emily Zhang" declared "fold:0"
+
+🤖 [qwen-2.5-7b-instruct (Robert Garcia)] Round 1 - PREFLOP
+💭 Reasoning: Your hand (S3 HA) is a weak offsuit starting hand with only moderate strength. Given the pot odds and the fact that no one else has called yet, the implied odds are not favorable. Your position as late position gives you some advantage, but the preflop raiser (David Wilson) may have a stronger hand. Folding here preserves your stack and avoids a potentially unfavorable spot.
+🎯 Decision: {'action': 'FOLD'}
+"Robert Garcia" declared "fold:0"

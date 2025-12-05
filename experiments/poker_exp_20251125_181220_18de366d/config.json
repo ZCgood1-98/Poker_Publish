@@ -1,0 +1,20 @@
+{
+  "experiment_id": "poker_exp_20251125_181220_18de366d",
+  "timestamp": "2025-11-25T18:12:20.013764",
+  "settings": {
+    "num_battles": 10,
+    "rounds_per_battle": 50,
+    "initial_stack": 1000,
+    "small_blind_amount": 5,
+    "verbose_level": 1
+  },
+  "players": {
+    "gpt": "Alex Chen",
+    "llama": "Sarah Johnson",
+    "claude": "Michael Davis",
+    "monte": "David Wilson",
+    "deepseek": "Emily Zhang",
+    "qwen": "Robert Garcia",
+    "gemini": "Jessica Liu"
+  }
+}

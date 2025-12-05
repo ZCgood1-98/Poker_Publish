@@ -1,0 +1,11 @@
+2025-11-25 18:18:21,416 - poker_exp_20251125_181821_6e8baae2 - INFO - Experiment initialized: poker_exp_20251125_181821_6e8baae2
+2025-11-25 18:18:21,418 - poker_exp_20251125_181821_6e8baae2 - INFO - ============================================================
+2025-11-25 18:18:21,418 - poker_exp_20251125_181821_6e8baae2 - INFO - Starting poker experiment: poker_exp_20251125_181821_6e8baae2
+2025-11-25 18:18:21,418 - poker_exp_20251125_181821_6e8baae2 - INFO - Configuration: 10 battles, 50 rounds each
+2025-11-25 18:18:21,418 - poker_exp_20251125_181821_6e8baae2 - INFO - Initial stack: 1000, Small blind: 5
+2025-11-25 18:18:21,418 - poker_exp_20251125_181821_6e8baae2 - INFO - Results will be saved to: experiments\poker_exp_20251125_181821_6e8baae2
+2025-11-25 18:18:21,420 - poker_exp_20251125_181821_6e8baae2 - INFO - ============================================================
+2025-11-25 18:18:21,420 - poker_exp_20251125_181821_6e8baae2 - INFO - Starting BATTLE 1/10
+2025-11-25 18:18:21,420 - poker_exp_20251125_181821_6e8baae2 - INFO - ==================================================
+2025-11-25 18:18:35,585 - poker_exp_20251125_181821_6e8baae2 - ERROR - Experiment failed with error: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 64000 tokens, but can only afford 15943. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_35xdxOtJWZcNZ81BQUTPLDJe1EC'}
+2025-11-25 18:18:35,585 - poker_exp_20251125_181821_6e8baae2 - INFO - Progress saved. Resume with: python run_game.py --resume poker_exp_20251125_181821_6e8baae2

@@ -1,0 +1,11 @@
+2025-11-25 18:26:36,698 - poker_exp_20251125_182636_57fad2c3 - INFO - Experiment initialized: poker_exp_20251125_182636_57fad2c3
+2025-11-25 18:26:36,698 - poker_exp_20251125_182636_57fad2c3 - INFO - ============================================================
+2025-11-25 18:26:36,700 - poker_exp_20251125_182636_57fad2c3 - INFO - Starting poker experiment: poker_exp_20251125_182636_57fad2c3
+2025-11-25 18:26:36,700 - poker_exp_20251125_182636_57fad2c3 - INFO - Configuration: 10 battles, 50 rounds each
+2025-11-25 18:26:36,700 - poker_exp_20251125_182636_57fad2c3 - INFO - Initial stack: 1000, Small blind: 5
+2025-11-25 18:26:36,700 - poker_exp_20251125_182636_57fad2c3 - INFO - Results will be saved to: experiments\poker_exp_20251125_182636_57fad2c3
+2025-11-25 18:26:36,702 - poker_exp_20251125_182636_57fad2c3 - INFO - ============================================================
+2025-11-25 18:26:36,702 - poker_exp_20251125_182636_57fad2c3 - INFO - Starting BATTLE 1/10
+2025-11-25 18:26:36,702 - poker_exp_20251125_182636_57fad2c3 - INFO - ==================================================
+2025-11-25 18:28:37,617 - poker_exp_20251125_182636_57fad2c3 - WARNING - Experiment interrupted by user
+2025-11-25 18:28:37,618 - poker_exp_20251125_182636_57fad2c3 - INFO - Progress saved. Resume with: python run_game.py --resume poker_exp_20251125_182636_57fad2c3

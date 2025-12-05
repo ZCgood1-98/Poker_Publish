@@ -1,0 +1,17 @@
+Started the round 1
+Street "preflop" started. (community card = [])
+
+🤖 [monte-carlo-algorithm (David Wilson)] Round 1 - PREFLOP
+💭 Reasoning: Win rate (15.20%) and pot odds (40.00%) justify calling to see next card.
+🎯 Decision: {'action': 'CALL', 'amount': 10}
+"David Wilson" declared "call:10"
+
+🤖 [deepseek-chat-v3-0324 (Emily Zhang)] Round 1 - PREFLOP
+💭 Reasoning: Weak offsuit hand (C4, H2) with low hand strength (0.3000) and unfavorable pot odds (0.29). Middle position with multiple players left to act, and no significant opponent aggression to exploit. Folding is the optimal play to preserve chips.
+🎯 Decision: {'action': 'FOLD'}
+"Emily Zhang" declared "fold:0"
+
+🤖 [qwen-2.5-7b-instruct (Robert Garcia)] Round 1 - PREFLOP
+💭 Reasoning: Given your offsuit cards and the current pot odds, calling seems reasonable as you have some equity against the big blind's range. However, with only a small pot and the minimum raise being relatively low, raising could extract more information and potentially steal the pot if your opponents are folding weak hands.
+🎯 Decision: {'action': 'RAISE', 'amount': 15}
+"Robert Garcia" declared "raise:15"

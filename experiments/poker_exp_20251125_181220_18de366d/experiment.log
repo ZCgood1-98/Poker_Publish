@@ -1,0 +1,11 @@
+2025-11-25 18:12:20,013 - poker_exp_20251125_181220_18de366d - INFO - Experiment initialized: poker_exp_20251125_181220_18de366d
+2025-11-25 18:12:20,013 - poker_exp_20251125_181220_18de366d - INFO - ============================================================
+2025-11-25 18:12:20,014 - poker_exp_20251125_181220_18de366d - INFO - Starting poker experiment: poker_exp_20251125_181220_18de366d
+2025-11-25 18:12:20,014 - poker_exp_20251125_181220_18de366d - INFO - Configuration: 10 battles, 50 rounds each
+2025-11-25 18:12:20,015 - poker_exp_20251125_181220_18de366d - INFO - Initial stack: 1000, Small blind: 5
+2025-11-25 18:12:20,015 - poker_exp_20251125_181220_18de366d - INFO - Results will be saved to: experiments\poker_exp_20251125_181220_18de366d
+2025-11-25 18:12:20,015 - poker_exp_20251125_181220_18de366d - INFO - ============================================================
+2025-11-25 18:12:20,015 - poker_exp_20251125_181220_18de366d - INFO - Starting BATTLE 1/10
+2025-11-25 18:12:20,015 - poker_exp_20251125_181220_18de366d - INFO - ==================================================
+2025-11-25 18:12:26,983 - poker_exp_20251125_181220_18de366d - ERROR - Experiment failed with error: Error code: 400 - {'error': {'message': 'google/gemini-2.5-flash-preview-05-20 is not a valid model ID', 'code': 400}, 'user_id': 'user_35xdxOtJWZcNZ81BQUTPLDJe1EC'}
+2025-11-25 18:12:26,983 - poker_exp_20251125_181220_18de366d - INFO - Progress saved. Resume with: python run_game.py --resume poker_exp_20251125_181220_18de366d

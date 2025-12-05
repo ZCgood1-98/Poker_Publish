@@ -1,0 +1,221 @@
+Started the round 1
+Street "preflop" started. (community card = [])
+
+🤖 [monte-carlo-algorithm (David Wilson)] Round 1 - PREFLOP
+💭 Reasoning: Win rate (11.10%) and pot odds (40.00%) justify calling to see next card.
+🎯 Decision: {'action': 'CALL', 'amount': 10}
+"David Wilson" declared "call:10"
+Failed to parse LLM response: No DECISION section found
+
+🤖 [deepseek-chat-v3-0324 (Emily Zhang)] Round 1 - PREFLOP
+💭 Reasoning: Parse failed: No DECISION section found
+🎯 Decision: {'action': 'FOLD'}
+"Emily Zhang" declared "fold:0"
+
+🤖 [qwen-2.5-7b-instruct (Robert Garcia)] Round 1 - PREFLOP
+💭 Reasoning: Your suited connectors have decent potential, but the pot odds are not favorable, and the table seems tight with only one opponent calling. Given your late position, it's important to avoid putting in large amounts of money pre-flop with a hand that lacks strong implied odds.
+🎯 Decision: {'action': 'FOLD'}
+"Robert Garcia" declared "fold:0"
+
+🤖 [gemini-2.5-flash-preview-09-2025 (Jessica Liu)] Round 1 - PREFLOP
+💭 Reasoning: My hand (A7o) is mediocre, slightly above average preflop strength (0.5500). I am in the Small Blind, facing a call from the Big Blind and another player, meaning the pot is already multiway. The pot odds (0.29 or 29%) are favorable for a call of 10 into a 35 chip pot (10/35 = 0.285), but A7o plays poorly multiway and out of position. Raising is too loose with this hand, and calling risks playing a marginal hand out of position against multiple opponents.
+🎯 Decision: {'action': 'FOLD'}
+"Jessica Liu" declared "fold:0"
+
+🤖 [gpt-4o-mini (Alex Chen)] Round 1 - PREFLOP
+💭 Reasoning: You have suited cards with a decent hand strength of 0.6333, and the pot odds of 0.29 suggest that calling is favorable. However, given that there are already two players in the pot and you're in the dealer position, a raise could help thin the field and potentially allow you to take control of the hand.
+🎯 Decision: {'action': 'RAISE', 'amount': 30}
+"Alex Chen" declared "raise:30"
+
+🤖 [llama-4-maverick (Sarah Johnson)] Round 1 - PREFLOP
+💭 Reasoning: We have a strong suited hand with a hand strength of 0.6500, and we're in the small blind position. Alex Chen has raised to 30, indicating some level of hand strength, but not overly aggressive. The pot odds are 0.31, which is less favorable, but our hand strength justifies a call or raise.
+🎯 Decision: {'action': 'RAISE', 'amount': 50}
+"Sarah Johnson" declared "raise:50"
+
+🤖 [claude-3.5-haiku (Michael Davis)] Round 1 - PREFLOP
+💭 Reasoning: With a low pair of twos and marginal hand strength, facing significant preflop aggression from Alex Chen and Sarah Johnson, the situation looks challenging. The pot odds of 0.29 are not compelling enough to justify calling, and being in the big blind with a weak hand suggests folding is the most prudent strategy to minimize potential losses.
+🎯 Decision: {'action': 'FOLD'}
+"Michael Davis" declared "fold:0"
+
+🤖 [monte-carlo-algorithm (David Wilson)] Round 1 - PREFLOP
+💭 Reasoning: Win rate (11.80%) and pot odds (28.57%) justify calling to see next card.
+🎯 Decision: {'action': 'CALL', 'amount': 40}
+"David Wilson" declared "call:50"
+
+🤖 [gpt-4o-mini (Alex Chen)] Round 1 - PREFLOP
+💭 Reasoning: You have suited cards with decent hand strength (0.6333) but are facing a raise from Sarah Johnson and a call from David Wilson. The pot odds of 0.12 are favorable for a call, but given the aggression shown by Sarah and the potential for stronger hands, it may be prudent to either call and see a flop or raise to apply pressure, considering your position as the dealer.
+🎯 Decision: {'action': 'CALL'}
+"Alex Chen" declared "call:50"
+Street "flop" started. (community card = ['SK', 'C4', 'D7'])
+
+🤖 [llama-4-maverick (Sarah Johnson)] Round 1 - FLOP
+💭 Reasoning: With a hand strength of 7.9904 and a high card hand type, we have a relatively weak hand. The flop has been checked to us, and we are in the small blind position with two opponents remaining in the hand. Given the board texture and our hand strength, we need to consider the likelihood of improving our hand and the potential aggression from our opponents.
+🎯 Decision: {'action': 'RAISE', 'amount': 50}
+"Sarah Johnson" declared "raise:50"
+
+🤖 [monte-carlo-algorithm (David Wilson)] Round 1 - FLOP
+💭 Reasoning: Low win rate (5.90%) and poor pot odds (19.23%) make folding optimal.
+🎯 Decision: {'action': 'FOLD', 'amount': 0}
+"David Wilson" declared "fold:0"
+
+🤖 [gpt-4o-mini (Alex Chen)] Round 1 - FLOP
+💭 Reasoning: You have a weak one pair with a hand strength of 15.9468, and the pot odds of 0.19 suggest that calling is not favorable. Given that Sarah Johnson has shown aggression by raising to 50 after the flop and your position is the dealer/SB, it may be wise to fold and conserve your stack against a likely stronger hand.
+🎯 Decision: {'action': 'FOLD'}
+"Alex Chen" declared "fold:0"
+"['Sarah Johnson']" won the round 1 (stack = {'Alex Chen': 950, 'Sarah Johnson': 1110, 'Michael Davis': 990, 'David Wilson': 950, 'Emily Zhang': 1000, 'Robert Garcia': 1000, 'Jessica Liu': 1000})
+Started the round 2
+Street "preflop" started. (community card = [])
+
+🤖 [deepseek-chat-v3-0324 (Emily Zhang)] Round 2 - PREFLOP
+💭 Reasoning: Weak offsuit hand (4-6) with below-average strength (0.3667) in early position. Pot odds (0.40) don't justify continuing given the high likelihood of facing raises from later positions. Folding preserves stack for better spots.
+🎯 Decision: {'action': 'FOLD'}
+"Emily Zhang" declared "fold:0"
+
+🤖 [qwen-2.5-7b-instruct (Robert Garcia)] Round 2 - PREFLOP
+💭 Reasoning: Your hand ('H2', 'CK') is a weak offsuit starting hand with limited potential. Given the pot odds and the fact that only one player has called (Michael Davis with the small blind), the pot odds do not favor calling the big blind. Your position in middle position also puts you at a disadvantage as you have to act before seeing more community cards.
+🎯 Decision: {'action': 'FOLD'}
+"Robert Garcia" declared "fold:0"
+
+🤖 [gemini-2.5-flash-preview-09-2025 (Jessica Liu)] Round 2 - PREFLOP
+💭 Reasoning: We are holding 64o, a very weak, unsuited, gapped hand, which has a low preflop hand strength (0.3667). We are on the button (Dealer position) and the action is folded to us, meaning we only have to worry about the blinds. While the pot odds (0.40) are decent for a call of 10 into a 25 pot (10 to win 25, or 28.6% equity needed), 64o plays poorly post-flop, especially out of position against the blinds if they call or raise. Given the weakness of the hand and the desire to maximize long-term profit, this is a clear fold.
+🎯 Decision: {'action': 'FOLD'}
+"Jessica Liu" declared "fold:0"
+
+🤖 [gpt-4o-mini (Alex Chen)] Round 2 - PREFLOP
+💭 Reasoning: With a hand strength of 0.5167 and pot odds of 0.40, the situation is marginal. The pot is already at 15, and calling 10 gives a decent return, but being in middle position against three opponents with unknown tendencies makes this a cautious spot. Given the lack of community cards and the potential for stronger hands from the blinds, a call is reasonable to see a flop without committing too many chips.
+🎯 Decision: {'action': 'CALL'}
+"Alex Chen" declared "call:10"
+
+🤖 [llama-4-maverick (Sarah Johnson)] Round 2 - PREFLOP
+💭 Reasoning: We have a relatively strong hand with CA and HK, offsuit, and we're in the dealer position. The pot odds are 0.29, which is less than our hand strength of 0.65, indicating a profitable call. However, considering we're the last to act and have a decent hand strength, raising might be a more optimal strategy to build the pot and narrow the field.
+🎯 Decision: {'action': 'RAISE', 'amount': 30}
+"Sarah Johnson" declared "raise:30"
+
+🤖 [claude-3.5-haiku (Michael Davis)] Round 2 - PREFLOP
+💭 Reasoning: I have a strong pair of Jacks (DJ, CJ) with a high hand strength of 0.8929, which is favorable preflop. Sarah Johnson's raise to 30 suggests aggression, but my hand is strong enough to continue. The pot odds of 0.31 are attractive, and I'm in the small blind with good position to potentially control the pot.
+🎯 Decision: {'action': 'RAISE', 'amount': 100}
+"Michael Davis" declared "raise:100"
+
+🤖 [monte-carlo-algorithm (David Wilson)] Round 2 - PREFLOP
+💭 Reasoning: Win rate (9.20%) and pot odds (37.50%) justify calling to see next card.
+🎯 Decision: {'action': 'CALL', 'amount': 90}
+"David Wilson" declared "call:100"
+
+🤖 [gpt-4o-mini (Alex Chen)] Round 2 - PREFLOP
+💭 Reasoning: Your hand strength is moderate with offsuit cards, and the pot odds of 0.27 indicate that calling the 90 is justifiable, but the aggressive actions from Michael and David suggest they may have stronger hands. Given your position and the potential for further aggression, it may be wise to fold and conserve your stack for a better opportunity.
+🎯 Decision: {'action': 'FOLD'}
+"Alex Chen" declared "fold:0"
+
+🤖 [llama-4-maverick (Sarah Johnson)] Round 2 - PREFLOP
+💭 Reasoning: We have a relatively strong hand preflop with CA and HK, offsuit, and a hand strength of 0.6500. The pot odds are 0.23, which is less than our hand strength, indicating a call is profitable. Michael Davis has shown aggression by raising after Alex Chen's initial call, and David Wilson has called, suggesting they may have strong hands.
+🎯 Decision: {'action': 'CALL'}
+"Sarah Johnson" declared "call:100"
+Street "flop" started. (community card = ['DA', 'S3', 'H7'])
+
+🤖 [claude-3.5-haiku (Michael Davis)] Round 2 - FLOP
+💭 Reasoning: I have a pair of Jacks with a decent hand strength of 14.8458. Sarah Johnson showed preflop aggression by raising, which suggests a strong range. With only one pair and potential for better hands, a cautious approach is prudent.
+🎯 Decision: {'action': 'CALL'}
+"Michael Davis" declared "call:0"
+
+🤖 [monte-carlo-algorithm (David Wilson)] Round 2 - FLOP
+💭 Reasoning: Low win rate (2.90%) and poor pot odds (0.00%) make folding optimal.
+🎯 Decision: {'action': 'FOLD', 'amount': 0}
+"David Wilson" declared "fold:0"
+
+🤖 [llama-4-maverick (Sarah Johnson)] Round 2 - FLOP
+💭 Reasoning: We have a relatively strong hand with ONEPAIR, and the opponent has shown aggression preflop by raising to 100. The flop has brought no obvious draws, and our hand strength is decent at 16.4992. We need to consider how to maximize value against a potentially strong range.
+🎯 Decision: {'action': 'RAISE', 'amount': 150}
+"Sarah Johnson" declared "raise:150"
+
+🤖 [claude-3.5-haiku (Michael Davis)] Round 2 - FLOP
+💭 Reasoning: With a pair of Jacks and a hand strength of 14.8458, I have a decent but not exceptional hand. Sarah's aggressive betting suggests she may have a stronger hand or is attempting a bluff, and the pot odds of 0.25 make calling marginally attractive, but the risk of being dominated is significant.
+🎯 Decision: {'action': 'FOLD'}
+"Michael Davis" declared "fold:0"
+"['Sarah Johnson']" won the round 2 (stack = {'Alex Chen': 940, 'Sarah Johnson': 1320, 'Michael Davis': 890, 'David Wilson': 850, 'Emily Zhang': 1000, 'Robert Garcia': 1000, 'Jessica Liu': 1000})
+Started the round 3
+Street "preflop" started. (community card = [])
+
+🤖 [qwen-2.5-7b-instruct (Robert Garcia)] Round 3 - PREFLOP
+💭 Reasoning: Your suited cards have decent strength pre-flop, but the pot odds are not favorable enough to justify a call given the raise size and your stack size. With only early position and facing a raise, it's prudent to avoid putting yourself in a deep-stacking situation where you might need to commit more chips.
+🎯 Decision: {'action': 'FOLD'}
+"Robert Garcia" declared "fold:0"
+
+🤖 [gemini-2.5-flash-preview-09-2025 (Jessica Liu)] Round 3 - PREFLOP
+💭 Reasoning: My hand, Q3o, is extremely weak (Hand Strength 0.5167) and is a clear fold from middle position, especially facing a 10 chip call amount. This hand has poor playability and reverse implied odds, making it unprofitable to enter the pot unless the action folds around to the blinds. Folding is the standard, high-EV play to preserve capital.
+🎯 Decision: {'action': 'FOLD'}
+"Jessica Liu" declared "fold:0"
+
+🤖 [gpt-4o-mini (Alex Chen)] Round 3 - PREFLOP
+💭 Reasoning: Your hand, CKD4, is a weak offsuit hand with a hand strength of 0.5333, which is below average. The pot odds of 0.40 suggest that calling is justified, but considering your position and the potential for stronger hands from opponents, it may be prudent to fold and wait for a better opportunity.
+🎯 Decision: {'action': 'FOLD'}
+"Alex Chen" declared "fold:0"
+
+🤖 [llama-4-maverick (Sarah Johnson)] Round 3 - PREFLOP
+💭 Reasoning: With a hand strength of 0.3667 and being in middle position, my offsuit cards ['H8', 'C2'] are relatively weak for a raise, but the pot odds of 0.40 are favorable for a call. Considering the opponents' stacks and the fact that two players have folded before me, I need to weigh the risk of continuing with a weak hand against the potential reward. The blinds are relatively small compared to our stacks, and I should be cautious with a weak hand.
+🎯 Decision: {'action': 'CALL'}
+"Sarah Johnson" declared "call:10"
+
+🤖 [claude-3.5-haiku (Michael Davis)] Round 3 - PREFLOP
+💭 Reasoning: Holding a suited 10-3 is a marginal hand with limited potential. While the hand has some suited connectivity, it lacks strong drawing potential and is vulnerable against other players' ranges. The pot odds of 0.29 are not compelling enough to justify a call or raise, especially in a multi-way pot with professional opponents.
+🎯 Decision: {'action': 'FOLD'}
+"Michael Davis" declared "fold:0"
+
+🤖 [monte-carlo-algorithm (David Wilson)] Round 3 - PREFLOP
+💭 Reasoning: Low win rate (11.40%) and poor pot odds (16.67%) make folding optimal.
+🎯 Decision: {'action': 'FOLD', 'amount': 0}
+"David Wilson" declared "fold:0"
+
+🤖 [deepseek-chat-v3-0324 (Emily Zhang)] Round 3 - PREFLOP
+💭 Reasoning: Suited Ace with good high-card potential, but facing no pressure with pot odds of 0. In position against one opponent who just called, can raise for value and initiative with a strong starting hand.
+🎯 Decision: {'action': 'RAISE', 'amount': 30}
+"Emily Zhang" declared "raise:30"
+
+🤖 [llama-4-maverick (Sarah Johnson)] Round 3 - PREFLOP
+💭 Reasoning: We have a weak offsuit hand with a hand strength of 0.3667 and are facing a raise from Emily Zhang in the big blind position. The pot odds are 0.31, which is less than our hand strength, indicating a potentially profitable call. However, considering we're out of position and the hand is relatively weak, we should be cautious.
+🎯 Decision: {'action': 'CALL'}
+"Sarah Johnson" declared "call:30"
+Street "flop" started. (community card = ['C8', 'DQ', 'HK'])
+
+🤖 [deepseek-chat-v3-0324 (Emily Zhang)] Round 3 - FLOP
+💭 Reasoning: Weak high-card hand with no made hand or strong draws. Opponent has shown passive calling behavior preflop, but the flop doesn't improve our hand. Pot odds don't justify continuing without strength.
+🎯 Decision: {'action': 'FOLD'}
+"Emily Zhang" declared "fold:0"
+"['Sarah Johnson']" won the round 3 (stack = {'Alex Chen': 940, 'Sarah Johnson': 1355, 'Michael Davis': 890, 'David Wilson': 845, 'Emily Zhang': 970, 'Robert Garcia': 1000, 'Jessica Liu': 1000})
+Started the round 4
+Street "preflop" started. (community card = [])
+
+🤖 [gemini-2.5-flash-preview-09-2025 (Jessica Liu)] Round 4 - PREFLOP
+💭 Reasoning: Holding T-K offsuit in early position is a marginal hand, especially when facing a full table. While KTo is playable, opening from EP is generally reserved for stronger, more connected hands. The pot odds (0.40) are not compelling enough to justify calling with a marginal hand out of position, and raising would be too loose for an EP open.
+🎯 Decision: {'action': 'FOLD'}
+"Jessica Liu" declared "fold:0"
+
+🤖 [gpt-4o-mini (Alex Chen)] Round 4 - PREFLOP
+💭 Reasoning: With a hand strength of 0.5500 and being in early position, I have a marginal hand (offsuit cards) that does not play well against a full table of opponents. The pot odds of 0.40 suggest that calling is not favorable given the potential for stronger hands from players behind me. Additionally, the action has not yet indicated any aggressive plays, making it likely that I am facing a range of stronger hands.
+🎯 Decision: {'action': 'FOLD'}
+"Alex Chen" declared "fold:0"
+
+🤖 [llama-4-maverick (Sarah Johnson)] Round 4 - PREFLOP
+💭 Reasoning: We have a relatively weak hand with offsuit 3 and K, and the hand strength is 0.5333, which is not strong. The pot odds are 0.40, which is less than our hand strength, making a call profitable. However, considering we're in middle position and two players have already acted, we need to be cautious.
+🎯 Decision: {'action': 'CALL'}
+"Sarah Johnson" declared "call:10"
+
+🤖 [claude-3.5-haiku (Michael Davis)] Round 4 - PREFLOP
+💭 Reasoning: H2-CQ is a weak offsuit hand with low hand strength (0.5167), and the current pot odds (0.29) do not justify calling or raising. In late position with multiple players already involved, the risk of being dominated is high, and preserving chips is the optimal strategy.
+🎯 Decision: {'action': 'FOLD'}
+"Michael Davis" declared "fold:0"
+
+🤖 [monte-carlo-algorithm (David Wilson)] Round 4 - PREFLOP
+💭 Reasoning: Win rate (8.50%) and pot odds (28.57%) justify calling to see next card.
+🎯 Decision: {'action': 'CALL', 'amount': 10}
+"David Wilson" declared "call:10"
+
+🤖 [deepseek-chat-v3-0324 (Emily Zhang)] Round 4 - PREFLOP
+💭 Reasoning: Weak offsuit hand (S9, D2) with low hand strength (0.3833) and poor pot odds (0.12). Opponents have shown passive behavior with calls, but the hand is not strong enough to justify continuing. Folding is the optimal play to preserve chips.
+🎯 Decision: {'action': 'FOLD'}
+"Emily Zhang" declared "fold:0"
+
+🤖 [qwen-2.5-7b-instruct (Robert Garcia)] Round 4 - PREFLOP
+💭 Reasoning: Your hand, SQ D4, is a weak offsuit starting hand with only a moderate chance of winning. The pot odds are not favorable, and there are no community cards to improve your hand significantly. Given that two players have already called the big blind, the table seems to be relatively tight, and raising would likely face significant resistance.
+🎯 Decision: {'action': 'FOLD'}
+"Robert Garcia" declared "fold:0"
+Street "flop" started. (community card = ['C7', 'HT', 'C9'])
